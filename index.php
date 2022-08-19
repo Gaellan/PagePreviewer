@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * @author Gaëllan
+ */
+
 require "autoload.php";
 
 try {

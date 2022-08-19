@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * @author Gaëllan
+ */
+
 class PageController extends AbstractController
 {
     public function preview(array $post)

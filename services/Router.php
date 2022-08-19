@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * @author Gaëllan
+ */
+
 class Router {
     
     private function parseRequest(string $request)

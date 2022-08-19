@@ -1,4 +1,9 @@
 <?php
+
+/**
+ * @author Gaëllan
+ */
+
 require "./controllers/AbstractController.php";
 require "./controllers/HomeController.php";
 require "./controllers/PageController.php";

@@ -1,3 +1,7 @@
+/**
+ * @author Gaëllan
+ */
+
 window.addEventListener("DOMContentLoaded", (event) => {
     ClassicEditor
         .create( document.querySelector( '#content' ) )

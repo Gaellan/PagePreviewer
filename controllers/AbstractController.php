@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * @author Gaëllan
+ */
+
 abstract class AbstractController
 {
     protected function renderPartial(string $template, array $values)
