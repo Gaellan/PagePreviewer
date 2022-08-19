@@ -1,0 +1,26 @@
+<main>
+    <section>
+        <h2>Le formulaire</h2>
+        <form id="editPageForm" method="POST" action="/page-previewer/page-preview">
+            <fieldset>
+                <label for="title">Titre</label>
+                <input type="text" name="title" id="title" />
+            </fieldset>
+            <fieldset>
+                <label for="content">Contenu</label>
+                <textarea name="content" id="content">
+                    
+                </textarea>
+            </fieldset>
+            <fieldset>
+                <input id="previewSubmit" type="submit" value="Prévisualiser" />
+            </fieldset>
+        </form>
+    </section>
+    <section>
+        <h2>L'aperçu</h2>
+        <section id="previewContent">
+            
+        </section>
+    </section>
+</main>

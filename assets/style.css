@@ -1,0 +1,41 @@
+body {
+    width:100vw;
+    height:100vh;
+}
+
+body > main {
+    display:grid;
+    height:100%;
+    grid-template-rows:1fr;
+    grid-template-columns:1fr 1fr;
+}
+
+.ck-editor__editable[role="textbox"] {
+    /* editing area */
+    min-height: 50vh;
+}
+
+#previewContent {
+    font-family: Arial, sans-serif;
+    display:flex;
+}
+
+#previewContent h1 {
+    font-size: 1.8rem;
+}
+
+#previewContent h2 {
+    font-size: 1.6rem;
+}
+
+#previewContent h3 {
+    font-size:1.2rem;
+}
+
+#previewContent a {
+    color: red;
+}
+
+#previewContent a:hover {
+    color:blue;
+}
